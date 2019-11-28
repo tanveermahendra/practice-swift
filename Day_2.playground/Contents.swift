@@ -14,3 +14,12 @@ let darlings = [guptaji, baba, vishu, waddu]
 //hence items cannot be accessed using index values (like in arrays)
 
 let venn = Set(["red", "green", "blue", "red"]) //ignores second ccurence of red
+
+//can't aad or rmove items. Can't change the type of items
+
+var name = (first: "Tanveer Singh", last: "Mahendra")
+
+name.0
+name.last
+
+//name.0 = 23 <- Throws error cannot change the type once set
