@@ -21,3 +21,17 @@ greet += user_name
 
 print(greet == user_name ? "Strings are the same"
     : "Strings are different")
+
+//switch conditions
+let weather = "sunny"
+switch weather {
+case "rain":
+    print("Bring an umbrella")
+case "snow":
+    print("Wrap up warm")
+case "sunny":
+    print("Wear sunscreen")
+    fallthrough //Executes the code after the case block is run
+default:
+    print("Enjoy your day!")
+}
